@@ -1,0 +1,5 @@
+spring:
+  data:
+    web:
+      pageable:
+        one-indexed-parameters: true #1페이부터 false면 0페이지부터 기본값은 false

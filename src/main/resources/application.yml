@@ -1,0 +1,18 @@
+spring:
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+
+
+  data:
+    web:
+      pageable:
+        one-indexed-parameters: true #1페이부터 false면 0페이지부터 기본값은 false
+        default-page-size: 5
+
+  datasource:
+    url: jdbc:h2:mem:roklog
+    username: sa
+    password:
+    driver-class-name: org.h2.Driver

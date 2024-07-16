@@ -1,0 +1,23 @@
+= API
+
+== 글 단건 조회
+
+== 요청 파라미터
+
+include::{snippets}/post-inquiry/path-parameters.adoc[]
+
+== 응답
+
+include::{snippets}/post-inquiry/http-response.adoc[]
+
+include::{snippets}/post-inquiry/response-fields.adoc[]
+
+
+== 요청
+
+include::{snippets}/post-create/http-request.adoc[]
+
+include::{snippets}/post-create/request-fields.adoc[]
+
+== 조회
+include::{snippets}/post-create/curl-request.adoc[]
